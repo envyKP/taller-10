@@ -17,7 +17,7 @@ public class Cajero extends Thread{
 			System.out.println("*************");
 			System.out.println("Cajero :"+nombre+" esta atendiendo");
 			FacturaDetalles fd= new FacturaDetalles();
-			fd.rellenarFactura(i);
+			fd.rellenarFactura3(i);
 			System.out.println("Cajero :"+nombre+" termino de atender");
 			System.out.println("*************");
 			
